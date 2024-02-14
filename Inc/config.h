@@ -42,9 +42,9 @@
 
 //----------------------------------------------------------------------
 //Battery bar settings for Kunteng and Bafang Display
-#define BATTERY_LEVEL_1 323000
-#define BATTERY_LEVEL_2 329000
-#define BATTERY_LEVEL_3 344000
+#define BATTERY_LEVEL_1 290000
+#define BATTERY_LEVEL_2 300000
+#define BATTERY_LEVEL_3 310000
 #define BATTERY_LEVEL_4 368000
 #define BATTERY_LEVEL_5 380000
 
@@ -97,7 +97,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE King-Meter 901U protocol
+#define DISPLAY_TYPE_KUNTENG
 
 
 //---------------------------------------------------------------------
