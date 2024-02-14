@@ -97,7 +97,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_EBiCS
+#define DISPLAY_TYPE King-Meter 901U protocol
 
 
 //---------------------------------------------------------------------
