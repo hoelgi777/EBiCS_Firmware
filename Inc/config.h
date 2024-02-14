@@ -97,7 +97,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_KUNTENG //Kunteng LCD3/5 etc.
+#define DISPLAY_TYPE DISPLAY_TYPE_KINGMETER_618U //J-LCD
 
 
 //---------------------------------------------------------------------
