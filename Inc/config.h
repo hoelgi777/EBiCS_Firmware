@@ -97,7 +97,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_DEBUG //ASCII Printout for debugging
+#define DISPLAY_TYPE DISPLAY_TYPE_KINGMETER_901U
 
 
 //---------------------------------------------------------------------
