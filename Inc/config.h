@@ -42,10 +42,10 @@
 
 //----------------------------------------------------------------------
 //Battery bar settings for Kunteng and Bafang Display
-#define BATTERY_LEVEL_1 290000
-#define BATTERY_LEVEL_2 300000
-#define BATTERY_LEVEL_3 310000
-#define BATTERY_LEVEL_4 368000
+#define BATTERY_LEVEL_1 320000
+#define BATTERY_LEVEL_2 335000
+#define BATTERY_LEVEL_3 350000
+#define BATTERY_LEVEL_4 365000
 #define BATTERY_LEVEL_5 380000
 
 //----------------------------------------------------------------------
@@ -63,7 +63,7 @@
 #define FRAC_HIGH 30
 #define FRAC_LOW 15
 #define PAS_TIMEOUT 3000
-#define RAMP_END 1200
+#define RAMP_END 1600
 
 //---------------------------------------------------------------------
 //Throttle settings
@@ -77,7 +77,7 @@
 #define GEAR_RATIO 44
 #define SPEEDLIMIT 25
 #define PULSES_PER_REVOLUTION 1
-#define SPEEDSOURCE EXTERNAL
+#define SPEEDSOURCE INTERNAL
 #define SPEEDFILTER 1
 #define SPDSHFT 0
 
