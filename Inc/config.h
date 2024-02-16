@@ -59,7 +59,7 @@
 
 //----------------------------------------------------------------------
 //PAS mode settings
-#define DIRDET
+//#define DIRDET
 #define FRAC_HIGH 30
 #define FRAC_LOW 15
 #define PAS_TIMEOUT 3000
@@ -97,7 +97,7 @@
 
 //---------------------------------------------------------------------
 //Display settings
-#define DISPLAY_TYPE DISPLAY_TYPE_DEBUG
+#define DISPLAY_TYPE DISPLAY_TYPE_KUNTENG
 
 
 //---------------------------------------------------------------------
