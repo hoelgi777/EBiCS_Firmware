@@ -83,8 +83,8 @@
 
 //---------------------------------------------------------------------
 //power settings
-#define PH_CURRENT_MAX 600
-#define BATTERYCURRENT_MAX 6000
+#define PH_CURRENT_MAX 1200
+#define BATTERYCURRENT_MAX 15000
 #define REVERSE 1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
 #define VOLTAGE_MIN 1200 //30V?
