@@ -59,7 +59,7 @@
 
 //----------------------------------------------------------------------
 //PAS mode settings
-#define DIRDET
+// #define DIRDET
 #define FRAC_HIGH 70
 #define FRAC_LOW 55
 #define PAS_TIMEOUT 3000
@@ -77,7 +77,7 @@
 #define GEAR_RATIO 44
 #define SPEEDLIMIT 25
 #define PULSES_PER_REVOLUTION 1
-#define SPEEDSOURCE EXTERNAL
+#define SPEEDSOURCE INTERNAL
 #define SPEEDFILTER 1
 #define SPDSHFT 0
 
