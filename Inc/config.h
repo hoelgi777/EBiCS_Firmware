@@ -62,7 +62,7 @@
 // #define DIRDET
 #define FRAC_HIGH 70
 #define FRAC_LOW 55
-#define PAS_TIMEOUT 3000
+#define PAS_TIMEOUT 8000
 #define RAMP_END 1600
 
 //---------------------------------------------------------------------
