@@ -182,7 +182,7 @@ int16_t i16_sinus=0;
 int16_t i16_cosinus=0;
 char buffer[100];
 char char_dyn_adc_state_old=1;
-const uint8_t assist_factor[10]={0, 51, 102, 153, 204, 255, 255, 255, 255, 255};
+const uint8_t f[10]={0, 51, 102, 153, 204, 255, 255, 255, 255, 255};
 const uint8_t assist_profile[2][6]= {	{0,10,20,30,45,48},
 										{64,64,128,200,255,0}};
 
@@ -824,7 +824,7 @@ int main(void)
 		#endif
 
 		#if (DISPLAY_TYPE == DISPLAY_TYPE_KINGMETER_618U)
-			  uint16_mapped_PAS = map(uint32_PAS, RAMP_END, PAS_TIMEOUT, (PH_CURRENT_MAX*(int32_t)(MS.assist_level-1))>>2, 0); // level in range 1...5
+			  uint16_mapped_PAS = map(uint32_PAS, RAMP_END, PAS_TIMEOUT, (PH_CURRENT_MAX*(int32_t)(assist_factor[MS.assist_level-1]))>>8, 0); //siehe Zeile 183
 		#endif
 
 		#if (DISPLAY_TYPE == DISPLAY_TYPE_KINGMETER_901U)
